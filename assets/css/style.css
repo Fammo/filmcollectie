@@ -1,0 +1,102 @@
+body{
+background: url(../gfx/background.gif) no-repeat;
+background-size: 100% 100%;
+background-attachment:fixed;
+font-family: 'Nixie One', cursive, sans-serif;
+font-size: 11pt;
+
+	position: absolute;
+	background-color: 40,40,0,0.8;						
+	top:5%;								
+	left:5%;								
+	width:50%;								
+	height:50%;								
+	font-size: 11pt;						
+	line-height: 20px;
+
+}
+
+a:link{
+	color: red;
+	text-decoration: none;
+}
+
+nav{										/*This effects the navigation menu*/
+	font-size:11pt;		
+	margin-left: -50px;
+	margin-bottom: 50px;					/*The margin at the bottom is 20px.*/
+	top:-20px;
+	margin-left: -12px;
+}
+
+td:first-child{
+	width: 130pt;
+	padding-right: 0pt;
+}
+
+td{
+	padding-right: 20pt;
+}
+nav li{										/* this effects the list items in the navigation*/
+	display:inline-block; 					/* I want the menu buttons to stand next too each other and not below each other */
+	border-right:solid 2px #999;			/* The line should be a bit thicker then we used in one of the assigments during the html/css lessons */
+	padding:0px 10px 0px 10px;				/* This determines the space between the navigation options.*/
+	line-height:1; 							/* This determines the hight of the lines in the navigation*/
+}
+
+nav li:last-child{							/* I only want lines in the middle. This acts upon the last line.*/
+	border-right:none;						/* from the navigation menu, the last word had no line to the right. This removes that line and makes sure there are only lines at the middle.*/
+}
+
+nav a{										/*this effects the links in the navigation */
+	color:red;							/* I don't want the normal blue color when the link has been clicked before. This makes the text just white all the time.*/
+	text-decoration: none;					/* Normally the navigation text is underlined. I dont want that, so I set the decoration to none.*/
+}
+nav a:hover{								/* this effects the links in the navigation when the user hovers over them*/
+	color:grey;								/* when the user does this, I want the letters to turn red*/
+	text-decoration: underline;	
+}
+
+h1{
+	font-size:24pt;
+	margin-bottom: 20pt;
+	font-weight: bold;
+}
+
+h2{
+	font-size:24pt;
+	margin-top: 40pt;
+	font-weight: bold;
+}
+
+h3{
+	font-size:24pt;
+	padding-bottom: 15pt;
+	padding-top: 40pt;
+}
+
+p{
+	padding-top: 10pt;
+}
+
+img{
+	align-left;
+}
+
+.content_toevoegen{
+	background-color: white;
+}
+
+footer{
+	color: red;	
+	margin-left: -12px;
+	margin-top: 10pt;
+}
+
+footer li{
+	display:inline-block; 					/* I want the menu buttons to stand next too each other and not below each other */
+	border-right:solid 2px #999;			/* The line should be a bit thicker then we used in one of the assigments during the html/css lessons */
+	padding:10px 10px 0px 10px;				/* This determines the space between the navigation options.*/
+	line-height:1; 	
+}
+
